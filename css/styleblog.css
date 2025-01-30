@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Título principal */
+.titulo {
+    background-color: rgb(239, 173, 96);
+    text-align: center;
+    font-style: oblique;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: solid 1px black;
+    padding: 10px 0;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    width: 50%;
+    font-size: clamp(1rem, 5vw, 2rem);
+}
+
+/* Estado sticky */
+.titulo.sticky {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgba(239, 173, 96, 0.9);
+    font-size: 1.5rem;
+}
+
+/* Contenedores de blog */
+.blog-contenedor {
+    background-color: rgba(239, 173, 96, 0.2);
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.blog-contenedor:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+    background-color: rgba(239, 173, 96, 0.3);
+}
+
+/* Imágenes */
+.fotoperro {
+    width: 200px;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fotoperro.expandida {
+    transform: scale(2);
+    z-index: 10;
+    position: relative;
+}
+
+/* Texto de comentarios */
+.comentarioperro {
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Centrado */
+.contenedor-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Pie de página */
+.footer {
+    background-color: rgb(239, 173, 96); /* Fondo que combina con el resto */
+    color: #fff; /* Texto blanco para contraste */
+    display: flex;
+    justify-content: space-between; /* Espaciado entre izquierda y derecha */
+    align-items: center;
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 0.9rem; /* Tamaño de fuente reducido */
+    position: sticky; /* Se mantiene en la parte inferior */
+    bottom: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    border-top: 2px solid #000; /* Borde superior */
+    box-sizing: border-box; /* Asegura que padding esté incluido en el ancho */
+}
+
+/* Estilo para el texto del pie de página */
+.footer-left {
+    margin: 0;
+}
+
+.footer-right {
+    margin: 0;
+    text-align: right;
+    flex-shrink: 0; /* Evita que el texto "Contáctame" se salga del contenedor */
+}
+
+.contact-link {
+    color: #fff; /* Enlace blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Negrita */
+    transition: color 0.3s ease-in-out; /* Transición suave al pasar el mouse */
+}
+
+.contact-link:hover {
+    color: #000; /* Cambia el color al pasar el mouse */
+}

@@ -1,0 +1,155 @@
+
+
+h2.titulo2 {
+    color: blueviolet;
+}
+
+h3.primer2 {
+    color:brown;
+}
+
+h4.segundo {
+    color:darkgreen;
+    background-color: black;
+}
+div h1, div h2 {
+    color:rgb(176, 197, 200);
+    background-color: blue;
+    font-size: 40px;
+}
+
+input {
+    color: brown;
+    background-color: rgb(81, 204, 77);
+    font-size: 30px;
+}
+
+label {
+    font-size:40px;
+}
+
+h1.titulo {
+    border-style: groove;
+    border-color: rgb(79, 79, 222);
+    border-radius: 8px;
+    border-width: 2rem;
+   
+}
+
+label {
+
+    border-style: solid;
+    border-color:brown;
+}
+
+#fondo {
+    background-color:rgb(141, 82, 82);
+    background-image: url("pc.png");
+    background-size: 100px 100px;
+    background-repeat: repeat-y;
+    background-position: center;
+    height: 200px;
+    font-size:xx-large;
+    color:rgb(3, 3, 30);
+  
+}
+
+.margen {
+    background-color: chocolate;
+    margin: 15px;
+    font-size: 50px;
+    padding: 30px 15px 5px;
+    border: solid black 5px;
+    height: 200px;
+    width: 120px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.texto {
+    font-family: "roboto", sans-serif; /* se agrego fuentes desde google docs y se pego en index*/
+    text-align: justify;
+    font-size: 20px;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+    color:blueviolet;
+
+}
+
+a:visited {
+    color:grey;
+
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color:blue;
+}
+
+ul{
+    background-color: blueviolet;
+    list-style-type: circle; 
+   /*  padding-left: 0; */
+ /*  list-style-position: inside; */
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px black;
+    padding: 5px;
+}
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+    
+}
+tr:nth-child(even) {
+    background-color: yellowgreen;
+}
+tr:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+#posicion {
+    position: sticky;
+    left: 400px;
+    top: 25px;
+    font-size: 25px;
+}
+
+.left { 
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right {
+    float: right;
+   
+}
+
+.container {
+
+    height: 300px;
+}
+
+.card {
+   /*  border: solid 1px black;
+    border-radius: 5px; */
+    margin: 0;
+     padding: 10px 0px;
+    width: 33.3%;
+}

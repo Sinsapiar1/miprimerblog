@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    <link rel="stylesheet" href="css/styleblog.css">
+</head>
+<body>
+    <h1 class="titulo" id="titulo">Bienvenidos a mi blog.</h1>
+
+    <div class="blog-contenedor">
+        <h2 class="intro">¿Qué tengo para ofrecer?</h2>
+        <div class="contenedor-imagen">
+            <img id="imagen1" src="img/perro.jpg" class="fotoperro" onclick="toggleExpandir(this)">
+        </div>
+        <p class="comentarioperro">Este perro feroz puede ser tuyo</p>
+    </div>
+    
+    <div class="blog-contenedor">
+        <h2 class="intro">También puedes escoger este otro</h2>
+        <div class="contenedor-imagen">
+            <img id="imagen2" src="img/perro2.jpg" class="fotoperro" onclick="toggleExpandir(this)">
+        </div>
+        <p class="comentarioperro">Este tirano de las tinieblas también puede ser tuyo</p>
+    </div>
+
+    <div class="blog-contenedor">
+        <h2 class="intro">¿No te gusto?, tengo a este otro perro feroz</h2>
+        <div class="contenedor-imagen">
+            <img id="imagen3" src="img/perro3.jpg" class="fotoperro" onclick="toggleExpandir(this)">
+        </div>
+        <p class="comentarioperro">Este otro te puede matar con sus miradas</p>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p class="footer-left">© 2025 Mi Blog. Todos los derechos reservados.</p>
+        <p class="footer-right">
+            <a href="mailto:jaime.pivet@gmail.com?subject=Consulta%20desde%20mi%20blog&body=Hola%2C%20me%20gustaría%20saber%20m%C3%A1s%20sobre%20tu%20blog." class="contact-link">
+                Contáctame
+            </a>
+        </p>
+    </footer>
+    
+
+    <script src="Javascript/script.js"></script>
+</body>
+</html>
